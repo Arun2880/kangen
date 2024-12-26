@@ -1,0 +1,183 @@
+/* Invoice Container */
+.invoice-container {
+  padding: 30px;
+  margin: 0 auto;
+  max-width: 800px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: sans-serif;
+  /* margin: 5px; */
+  /* padding: 10px; */
+}
+
+/* Header */
+.header-container {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.invoice-title {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.invoice-subtitle {
+  font-size: 18px;
+  color: #777;
+}
+
+/* Details Section */
+.details-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.customer-details,
+.order-details {
+  width: 48%;
+}
+
+h3 {
+  margin-top: 0;
+  font-size: 20px;
+  color: #333;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 5px 0;
+}
+
+strong {
+  color: #333;
+}
+
+/* Order Items */
+.order-items {
+  margin-bottom: 30px;
+}
+
+.invoice-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.invoice-table th,
+.invoice-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.invoice-table th {
+  background-color: #1256ea;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* Order Summary */
+.order-summary {
+  margin-bottom: 30px;
+}
+
+.order-summary-item {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.order-summary-label {
+  font-weight: bold;
+}
+
+.order-summary-value {
+  color: #333;
+}
+
+/* Download Section */
+.download-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.download-btn {
+  background-color: #28a745;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.download-btn:hover {
+  background-color: #218838;
+}
+
+.download-icon {
+  margin-right: 10px;
+}
+
+/* Back Button */
+.back-button {
+  margin-bottom: 20px;
+}
+
+/* Status Color */
+.status {
+  font-weight: bold;
+}
+
+.status.completed {
+  color: green;
+}
+
+.status.pending {
+  color: orange;
+}
+
+.status.failed {
+  color: red;
+}
+
+/* Styling for Company Details */
+.company-details {
+  margin-bottom: 20px;
+  padding-bottom: 5px;
+  /* border: 1px solid #ddd;
+  background-color: #f9f9f9; */
+}
+
+.company-details p {
+  margin: 5px 0;
+}
+
+/* Styling for Terms and Conditions */
+.terms-conditions {
+  margin-top: 30px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+}
+
+.terms-conditions h3 {
+  margin-bottom: 10px;
+}
+
+.terms-conditions ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.terms-conditions ul li {
+  font-size: 12px;
+  color: #555;
+}
